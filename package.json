@@ -30,11 +30,20 @@
     "dash-components-archetype": "^0.2.7",
     "prop-types": "^15.5.9",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "semantic-ui-css": "^2.2.11",
+    "semantic-ui-react": "^0.71.1"
   },
   "devDependencies": {
+    "css-loader": "^0.28.4",
     "dash-components-archetype-dev": "^0.2.7",
     "enzyme": "^2.8.2",
-    "react-test-renderer": "^15.5.4"
+    "file-loader": "^0.11.2",
+    "image-webpack-loader": "^3.3.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "react-test-renderer": "^15.5.4",
+    "semantic-ui": "^2.2.11",
+    "style-loader": "^0.18.2"
   }
 }
