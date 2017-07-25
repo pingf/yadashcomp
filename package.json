@@ -23,27 +23,28 @@
     "test": "builder run check",
     "test-watch": "builder run test-frontend-watch",
     "test-debug": "builder run test-frontend-debug",
-    "uninstall-local": "pip uninstall yadashcomp -y"
+    "uninstall-local": "pip uninstall yadashcomp -y",
+    "wheel": "./node_modules/builder/bin/builder.js run build-dist && ./node_modules/builder/bin/builder.js run copy-lib && python setup.py bdist_wheel"
   },
   "dependencies": {
     "builder": "3.2.2",
     "dash-components-archetype": "^0.2.7",
+    "lodash": "^4.17.4",
     "prop-types": "^15.5.9",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "semantic-ui-css": "^2.2.11",
-    "semantic-ui-react": "^0.71.1"
+    "semantic-ui-css": "*",
+    "semantic-ui-react": "*"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
-    "dash-components-archetype-dev": "^0.2.7",
+    "dash-components-archetype-dev": "*",
     "enzyme": "^2.8.2",
     "file-loader": "^0.11.2",
     "image-webpack-loader": "^3.3.1",
     "less": "^2.7.2",
     "less-loader": "^4.0.5",
     "react-test-renderer": "^15.5.4",
-    "semantic-ui": "^2.2.11",
     "style-loader": "^0.18.2"
   }
 }
