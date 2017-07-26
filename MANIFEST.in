@@ -1,5 +1,6 @@
 include yadashcomp/bundle.js
 include yadashcomp/bundle.js.map
 include yadashcomp/metadata.json
+include yadashcomp/*
 include README.md
 include LICENSE.md
