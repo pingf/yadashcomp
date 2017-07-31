@@ -25,30 +25,6 @@ _js_dist = [
 ]
 
 _css_dist = [
-    {
-        "relative_package_path": "icons.eot",
-        "namespace": "yadashcomp"
-    },
-    {
-        "relative_package_path": "icons.svg",
-        "namespace": "yadashcomp"
-    },
-    {
-        "relative_package_path": "icons.ttf",
-        "namespace": "yadashcomp"
-    },
-    {
-        "relative_package_path": "icons.woff",
-        "namespace": "yadashcomp"
-    },
-    {
-        "relative_package_path": "icons.woff2",
-        "namespace": "yadashcomp"
-    },
-    {
-        "relative_package_path": "flags.png",
-        "namespace": "yadashcomp"
-    }
 ]
 
 

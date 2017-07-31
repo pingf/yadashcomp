@@ -4,10 +4,12 @@ import MyDialog from './components/MyDialog.react.js';
 import DCard from './components/DCard.react.js';
 import DButton from './components/DButton.react.js';
 import DIcon from './components/DIcon.react.js';
+import DTable from './components/DTable.react.js';
 export {
     ExampleComponent,
     MyDialog,
     DCard,
     DButton,
-    DIcon
+    DIcon,
+    DTable
 };
